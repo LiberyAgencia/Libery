@@ -262,6 +262,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .navbar-brand {
     padding: 0;
+    text-align: center;
+align-content: center;
 }
 
 .navbar-brand .logo, .navbar-brand .logo-alt {
@@ -284,10 +286,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 @media only screen and (max-width: 767px) {
     
     #nav.nav-transparent .navbar-brand .logo-alt {
-        display: none !important;
+        display: none !important;        
     }
     #nav.nav-transparent .navbar-brand .logo {
         display: block !important;
+        margin-top: 5px;
+        text-align: center;
+
     }
     
 }
@@ -1811,7 +1816,7 @@ header {
 
 .button__landing{
     outline: none;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgb(92, 255, 71);
     border: none;
     border-radius: 25px;
     color: white;
@@ -1822,3 +1827,5 @@ header {
   .button__landing:hover{
     background-color: green;     
   }
+  
+
