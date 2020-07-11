@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta web</title>
+    <link rel="stylesheet" href="css/beta.css">
+</head>
+
+<body>
+    <div class="principal">
+        <section class="section-header">
+            <div id="card-container" onclick="handleOnClick()">
+                ejemplo
+            </div>
+        </section>
+    </div>
+</body>
+<script>
+    let estatus = false
+    let item = document.getElementById('card-container');
+    let cardSelect = estatus ? 'card' : 'card2'
+    console.log(item)
+    function handleOnClick() {
+        estatus = !estatus 
+        alert(estatus)              
+    }
+    function card(){
+        item.innerHTML = ` <div class="${cardSelect}" >
+                <h1>ejemplo de card</h1>
+            </div>`;
+    }
+    card()
+</script>
+
+</html>

@@ -1,0 +1,17 @@
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    background-color: rgb(10, 207, 241);
+    box-shadow:0px 0px 15px rgb(10, 207, 241);
+    transition:all 3s ease-in-out
+}
+
+.card2{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    background-color: rgb(241, 10, 87);
+    box-shadow:0px 0px 15px rgb(241, 10, 87);
+    transition:all 3s ease-in-out
+}
